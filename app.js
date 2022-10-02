@@ -115,3 +115,39 @@ addition (4,6);
 console.log(addition(4,5))
 
 
+
+
+
+////////////some more examples of javascript////
+
+
+// .💔💖-----------Global variable------------
+
+let newpassword=null;
+
+function password(){
+    let original="Dilbar ali";
+    newpassword=original;
+    return newpassword;
+}
+
+let result=password();
+console.log(result);
+
+
+
+
+
+
+// --------------🤴👩‍🔧👩‍🔧--Conditions---------------------
+
+let serverisrunning=true;
+if(serverisrunning==true){
+    console.log("Server is running  ");
+    
+}
+else{
+    console.log (" NOt Running  ");
+    
+    
+}
